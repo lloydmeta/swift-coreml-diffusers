@@ -167,7 +167,7 @@ extension PipelineLoader {
         configuration.computeUnits = computeUnits
         let pipeline: StableDiffusionPipelineProtocol
         if model.isXL {
-            if #available(macOS 14.0, iOS 17.0, *) {
+            if #available(macOS 13.1, iOS 17.0, *) {
                 pipeline = try StableDiffusionXLPipeline(resourcesAt: url,
                                                        configuration: configuration,
                                                        reduceMemory: model.reduceMemory)

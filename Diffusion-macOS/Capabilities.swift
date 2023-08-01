@@ -12,7 +12,7 @@ let runningOnMac = true
 let deviceHas6GBOrMore = true
 
 let deviceSupportsQuantization = {
-    if #available(macOS 14, *) {
+    if #available(macOS 13.1, *) {
         return true
     } else {
         return false

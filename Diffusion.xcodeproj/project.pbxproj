@@ -943,9 +943,9 @@
 /* Begin XCRemoteSwiftPackageReference section */
 		EB25B3D42A3A2DC4000E25A1 /* XCRemoteSwiftPackageReference "ml-stable-diffusion" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/apple/ml-stable-diffusion";
+			repositoryURL = "https://github.com/lloydmeta/ml-stable-diffusion";
 			requirement = {
-				branch = main;
+				branch = "hackity/allow-macos-13";
 				kind = branch;
 			};
 		};
