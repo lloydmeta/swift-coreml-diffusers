@@ -15,7 +15,7 @@
       "location" : "https://github.com/lloydmeta/ml-stable-diffusion",
       "state" : {
         "branch" : "hackity/allow-macos-13",
-        "revision" : "b9da06c8185f5844301af15e3bcda85bf18f989e"
+        "revision" : "67f1ee06105b4cb12e6c3b884544b1a0dc8e4a63"
       }
     },
     {
